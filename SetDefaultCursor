@@ -1,0 +1,6 @@
+    per app
+flatpak --user override com.discordapp.Discord --filesystem=/home/$USER/.icons/:ro
+
+    global
+flatpak --user override --filesystem=/home/$USER/.icons/:ro
+flatpak --user override --filesystem=/usr/share/icons/:ro
